@@ -169,3 +169,64 @@ span {
 }
 
 /* ================ Banner part End ================= */
+/* ================ Signature part Start ================= */
+#sig_part {
+    padding: 77px 0;
+    background: url(../images/pattern.jpg) center no-repeat;
+    background-size: cover;
+
+}
+
+.sig_cont {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sig_text {
+    width: 550px;
+    margin-left: 119px;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.sig_dish {
+    width: 530px;
+}
+
+.sig_text h2 {
+    color: #cc9900;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+
+}
+
+.sig_text p {
+    color: #4c4c4c;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 27px 0 37px 75px;
+    width: 442px;
+}
+
+.sig_dish img {
+    width: 100%;
+    max-width: 100%;
+    transition: all linear 20s;
+    -webkit-transition: all linear 20s;
+    -moz-transition: all linear 20s;
+    -ms-transition: all linear 20s;
+    -o-transition: all linear 20s;
+}
+
+#sig_part:hover .sig_dish img {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+/* ================ Signature part End ================= */
