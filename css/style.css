@@ -361,3 +361,128 @@ span {
 }
 
 /* ================ Review part End ================= */
+/* ================ Food Item part Start ================= */
+#food_part {
+    padding: 77px 0;
+    background: url(../images/pattern.jpg) center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+.food_cont {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.food_img {
+    width: 625px;
+}
+
+.food_img img {
+    margin-right: 15px;
+}
+
+.food_corner {
+    width: 625px;
+    margin-top: 40px;
+}
+
+.food_text {
+    text-align: center;
+    margin-right: 217px;
+    position: relative;
+
+}
+
+.food_text h2 span {
+    position: absolute;
+    top: -45px;
+    left: 0;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+    color: #cc9900;
+    width: 100%;
+    height: 100%;
+}
+
+.food_text img {
+    margin-bottom: 30px;
+}
+
+.food_text p {
+    color: #4c4c4c;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    line-height: 24px;
+    width: 415px;
+    margin-bottom: 46px;
+}
+
+.food_text p span {
+    margin-top: 15px;
+}
+
+.form_row {
+    width: 33%;
+    display: inline-block;
+    margin-bottom: 27px;
+}
+
+.form_row input {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding-left: 10px;
+}
+
+.form_row h2 {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #cc9900;
+}
+
+.form_row ::placeholder {
+    color: #7c7c7c;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+
+}
+
+.form_row select {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding-left: 10px;
+
+}
+
+.form_row .party {
+    color: #7c7c7c;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+
+}
+
+.form_row:nth-child(5) {
+    margin-left: 112px;
+
+}
+
+/* ================ Food Item part End ================= */
